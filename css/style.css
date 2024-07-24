@@ -14,3 +14,16 @@
     padding: 10px 10%;
     color: #fff;
 }
+
+.container .semi-title{
+    margin-top: 15%;
+    font-weight: 400;
+    font-size: 30px;
+}
+.container .title{
+    margin-top: 30px;
+    font-size: 50px;
+}
+.container .title-text{
+    margin: 10px 0 50px;
+}
