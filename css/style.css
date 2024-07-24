@@ -31,14 +31,14 @@
 .container .inputBox{
     background: #fff;
     display: flex;
-    width: fit-content;
+    max-width: 500px;
 }
 .container .inputBox .inputElem{
     border: 0;
     outline: none;
     padding: 10px 20px;
     height: 70px;
-    width: 400px;
+    width: 80%;
     font-size: 16px;
 }
 .container .inputBox .inputBtn{
@@ -46,7 +46,7 @@
     border: none;
     outline: none;
     height: 70px;
-    width: 100px;
+    width: 20%;
     cursor: pointer;
 }
 .container .inputBox .inputBtn img{
@@ -57,4 +57,17 @@
     color: #61b752;
     margin-top: 10px;
     display: block;
+}
+
+
+@media screen and (max-width: 600px) {
+    .container.hero-header{
+        margin: 0 auto;
+    }
+    .container .title{
+        font-size: 28px;
+    }
+    .container .semi-title{
+        font-size: 20px;
+    }
 }
